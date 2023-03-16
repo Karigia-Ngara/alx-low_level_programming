@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-    char *str = "Programming is like building a multilingual puzzle\n";
+   putchar *str = "Programming is like building a multilingual puzzle\n";
     size_t len = strlen(str);
     ssize_t bytes_written = write(STDOUT_FILENO, str, len);
 
