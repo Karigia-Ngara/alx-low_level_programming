@@ -1,4 +1,6 @@
-i/**
+#include <unistd.h>
+
+/**
  * _putchar - writes the character c toto stdout
  * @c: The character to print
  *
